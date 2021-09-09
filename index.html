@@ -2,26 +2,27 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Comic Con-Home page</title>
+<title>Lagos Comic-Con Showcase: Home page</title>
 <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 <link rel="stylesheet" href="css/fonts.css" />
 <link rel="stylesheet" href="css/main.css" />
-<script type="module" src="scripts/portfolio_load.js"></script>
+<link rel="stylesheet" href="css/mobile-nav.css" />
+<link rel="stylesheet" href="css/about-section.css" />
 <script src="scripts/export.js"></script>
 </head>
 <body>
  <div class="container d-flex">
 
-     <div class="mobile-nav-div d-flex">
-        <nav class="nav">
+     <div class="mobile-nav-div fixed d-flex">
+        <nav class="nav" id="Hamburger">
             <div><img  src="images/Hamburger.PNG" alt="View menu"></div>        
         </nav> 
     </div>
 
-    <section id="landing-Page" class="landing-page">
+    <section id="landing-Page" class="landing-page margin-top">
         <header class="landing-page-header">
             <p>"Hello! Comic Lovers"</p>
-            <h1>COMIC-CON LAGOS 2021</h1>
+            <h1>LAGOS COMIC-CON SHOWCASE <br> 2021</h1>
         </header>
         <div class="landing-page-p-div">
             <p class="border-div"> A glorious convention and celebration of the arts. Come see writers, producers and illustrators of comics from
@@ -34,9 +35,9 @@
         </div>
     </section>
 
-    <section id="about-page" class="about-page">
-        <div class="about-page-container-div">
-            <header class="about-page-header">
+    <section id="program-page" class="program-page">
+        <div class="program-page-container-div">
+            <header class="program-page-header">
                 <h2> Main Program </h2>
                 <hr>
             </header>
@@ -80,12 +81,12 @@
             </div>
 
             <div class="button-div">
-                <button class="register-button"> Join Comic-Con Lagos 2021 </button>
+                <button class="register-button"> Join Lagos Comic-Con 2021 </button>
             </div>
         </div> 
         <div class="speakers-div-container"> 
             <header class="speakers-div-container-header">
-                <h2> Featured Speakers </h2>
+                <h2> Guest Appearances </h2>
                 <hr>
             </header>
             <div class="group-speakers-div">
@@ -112,59 +113,124 @@
                     </div>
                 </div>
             </div>
-            <div class="group-speakers-div">
-                <div class="single-speaker-div"> 
-                    <div class="speaker-img-div"><img class="speaker-img" src="images/KitHarrington.jpg" alt=""></div>
-                    <div class="speaker-info-div">
-                        <h3> Kit Harington</h3>
-                        <span>Professional Actor</span>
-                        <hr>
-                        <p>
-                            Best known for his role as Jon Snow in Game Of Thrones.
-                        </p>
-                    </div>
-                </div>
-                <div class="single-speaker-div">
-                    <div class="speaker-img-div"><img class="speaker-img" src="images/TinaFey.jpg" alt=""></div>
-                    <div class="speaker-info-div"> 
-                        <h3> Tina Fey</h3>
-                        <span>Professional Actor and Director</span>
-                        <hr>
-                        <p>
-                            Best known for her work on the NBC sketch comedy series Saturday Night Live .
-                        </p>
-                    </div>
-                </div>
+
+            <div id="do-collapse-div">
+                <button class="more-button" id="do-collapse" type="button">MORE <img src="images/more-arrow.PNG" alt=""></button>
             </div>
-            <div class="group-speakers-div">
-                <div class="single-speaker-div"> 
-                    <div class="speaker-img-div"><img class="speaker-img" src="images/shola.jpg" alt=""></div>
-                    <div class="speaker-info-div">
-                        <h3> Sola Sobowale</h3>
-                        <span>Professional Actor</span>
-                        <hr>
-                        <p>
-                            Nigerian film actress, screenwriter, director and producer.
-                        </p>
+            
+            <div class="hide" id="collapse">
+                <div class="group-speakers-div">
+                    <div class="single-speaker-div"> 
+                        <div class="speaker-img-div"><img class="speaker-img" src="images/KitHarrington.jpg" alt=""></div>
+                        <div class="speaker-info-div">
+                            <h3> Kit Harington</h3>
+                            <span>Professional Actor</span>
+                            <hr>
+                            <p>
+                                Best known for his role as Jon Snow in Game Of Thrones.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-speaker-div">
+                        <div class="speaker-img-div"><img class="speaker-img" src="images/TinaFey.jpg" alt=""></div>
+                        <div class="speaker-info-div"> 
+                            <h3> Tina Fey</h3>
+                            <span>Professional Actor and Director</span>
+                            <hr>
+                            <p>
+                                Best known for her work on the NBC sketch comedy series Saturday Night Live .
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="single-speaker-div">
-                    <div class="speaker-img-div"><img class="speaker-img" src="images/rmd.jpg" alt=""></div>
-                    <div class="speaker-info-div">
-                        <h3> Richard Mofe Damijo</h3>
-                        <span>Professional Actor</span>
-                        <hr>
-                        <p>
-                            Popularly known as RMD, is a Nigerian actor, writer, producer, and lawyer.
-                        </p>
+                <div class="group-speakers-div">
+                    <div class="single-speaker-div"> 
+                        <div class="speaker-img-div"><img class="speaker-img" src="images/shola.jpg" alt=""></div>
+                        <div class="speaker-info-div">
+                            <h3> Sola Sobowale</h3>
+                            <span>Professional Actor</span>
+                            <hr>
+                            <p>
+                                Nigerian film actress, screenwriter, director and producer.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-speaker-div">
+                        <div class="speaker-img-div"><img class="speaker-img" src="images/rmd.jpg" alt=""></div>
+                        <div class="speaker-info-div">
+                            <h3> Richard Mofe Damijo</h3>
+                            <span>Professional Actor</span>
+                            <hr>
+                            <p>
+                                Popularly known as RMD, is a Nigerian actor, writer, producer, and lawyer.
+                            </p>
+                        </div>
                     </div>
                 </div>
+    
             </div>
+           <div class="hide" id="undo-collapse-div">
+            <button class="less-button" id="undo-collapse" type="button"><img src="images/Less-arrow.png" alt=""></button>
+           </div>
+           
         </div>    
     </section>
 
+    <section class="landing-Page" id="about-page">
+        <header class="landing-page-header center">
+            <p>"Hello! Comic Lovers"</p>
+            <h1>LAGOS COMIC-CON SHOWCASE 2021</h1>
+        </header>
+        <div class="landing-page-p-div about-p-div">
+            <p class="border-div about-p-tag"> The Lagos Comic-Con Showcase offers a wonderful opportunity for new and Innovative Writers, Illustrators and
+                Creatives to pitch their comic Ideas in front of a responsive and highly engaging audience. Pitches that stand out get instant recognition
+                collaboration and possible endorsements.
+            </p>
+            <p class="about-landing-page-p"> Please contact us per Email for any further questions about Lagos Comic-Con Showcase 2021!
+                <br>
+                <a href="mailto:iyadicy@gmail.com">iyadicy@gmail.com ></a>                
+            </p>
+        </div>
+        <div class="speakers-div-container flex-column padding">
+            <header class="speakers-div-container-header margin">
+                <h2> Lagos Comic-Con Showcase </h2>
+                <hr>
+            </header>
+            <P class="about-landing-page-p"> The logo of Lagos CC Showcase 2021 was gotten from Pinterest.</P>
+            <div class="main-logo-div"><img src="images/lagosComicConLogo.png" alt="showcase logo"></div>
+        </div>
+    </section>
+
+    <div class="mobile-nav d-flex" id="mobile-nav">    
+        <div class="mobile-nav-top d-flex">          
+          <div class="cross-img-div"><img src="images/circle-cross.png" tabindex="0" id="cancel-img" class="cross-img" alt="close menu"></div>
+        </div>
+        <div class="mobile-nav-list d-flex">
+          <ul class="mobile-nav-menu-list d-flex">
+            <li tabindex="0">
+              <div class="mobile-nav-list-title"><a href="#landing-page">Home</a></div>
+            </li>
+            <li tabindex="0">
+              <div class="mobile-nav-list-title margin-top"><a href="#program-page">Program</a></div>       
+            </li>
+            <li tabindex="0">
+              <div class="mobile-nav-list-title margin-top"><a href="#about-page">About</a></div>   
+            </li>
+            <li tabindex="0">
+              <div class="mobile-nav-list-title margin-top"><a href="#landing-page">Join</a></div> 
+            </li>
+            <li tabindex="0">
+                <div class="mobile-nav-list-title margin-top"><a href="#landing-page">Sponsor</a></div> 
+            </li>
+            <li tabindex="0">
+                <div class="mobile-nav-list-title margin-top"><a href="#landing-page">News</a></div> 
+            </li>
+          </ul>
+        </div>         
+      </div>
+
     <footer>
-        <div class="about-page-header">
+        <div class="program-page-header">
             <h2> Partner </h2>
             <hr>
         </div>
@@ -177,5 +243,6 @@
         </div>
     </footer>
  </div>
+ <script src="scripts/app.js"></script>
 </body>
 </html>
