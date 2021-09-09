@@ -16,6 +16,10 @@ button {
   flex-direction: column; 
 }
 
+.hide {
+  display: none;
+}
+
 .container {
   border: none;
   max-width: none;
@@ -42,11 +46,6 @@ footer {
   min-height: 5%;
 }
 
-.nav img:hover {
-  border: 1px solid black;
-  overflow: hidden;
-}
-
 .landing-page {
   width: 96%;
   margin: 2% 2% 10% 2%;
@@ -58,7 +57,7 @@ footer {
 .program-card-header h3,
 .landing-page-header p,
 .landing-page-header h1,
-.about-page-header hr {
+.program-page-header hr {
   color: #ec5242;
 }
 
@@ -67,12 +66,14 @@ footer {
   color: #272a31;
 }
 
+.less-button,
+.more-button,
 .licence-div p,
 .speaker-info-div,
 .speakers-div-container-header h2,
 .register-button,
 .program-card-div,
-.about-page-header h2,
+.program-page-header h2,
 .border-div,
 .landing-page-header p,
 .span-div {
@@ -104,6 +105,7 @@ footer {
   padding: 2%;
   font-size: 22px;
   margin-top: 0;
+  line-height: 1.5em;
 }
 
 .span-div span {
@@ -115,22 +117,22 @@ footer {
   font-size: 25px;
 }
 
-.about-page {
+.program-page {
   background-color: #ffff;
   min-height: 80%;
 }
 
 .register-button,
 .program-card-header p,
-.about-page-header {
+.program-page-header {
   color: #d3d3d3;
 }
 
-.about-page-header {  
+.program-page-header {  
   margin-bottom: 5%;
 }
 
-.about-page-header h2 {  
+.program-page-header h2 {  
   margin-top: 0;
 }
 
@@ -141,25 +143,26 @@ footer {
 }
 
 .speakers-div-container-header,
-.about-page-header {  
+.program-page-header {  
   text-align: center;  
 }
 
 .speakers-div-container-header h2,
-.about-page-header h2 {
+.program-page-header h2 {
   font-size: 30px;
 }
 
 .speakers-div-container-header hr,
-.about-page-header hr {
+.program-page-header hr {
   border: 1px solid;
   width: 7%;
 }
 
-.about-page-container-div {
-  height: 107vh;
+.program-page-container-div {
+  min-height: 12vh;
   background-color: #272a31;
   padding-top: 5%;
+  padding-bottom: 2%;
 }
 
 .program-card-div {
@@ -210,7 +213,7 @@ footer {
 }
 
 .register-button:hover {
-  border: 1px solid #3d4047;
+  border: 5px solid #3d4047;
 }
 
 .speakers-div-container {
@@ -289,4 +292,29 @@ footer {
 .footer-img-div img {
   margin-bottom: 7%;
   min-width: 50%;
+}
+
+.less-button,
+.more-button {
+  display: flex;
+  width: 96%;
+  height: 75px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+  font-size: 20px; 
+  background: #ffff;
+  border: 1px solid #d3d3d3;
+  justify-content: center;
+  align-items: center;
+}
+
+.less-button img,
+.more-button img {
+  margin-left: 2%;
+}
+
+.less-button:hover,
+.more-button:hover {
+  border: 5px solid #d3d3d3;
 }
