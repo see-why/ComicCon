@@ -1,0 +1,292 @@
+html {
+  box-sizing: border-box;   
+}
+
+body {
+  font-family: 'CocoGoose','LatoWebMedium', Helvetica, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  flex-direction: column; 
+}
+
+.container {
+  border: none;
+  max-width: none;
+  height: 100%;
+  margin: 0;  
+  justify-content: space-between;
+  overflow-y: auto;
+}
+
+footer {
+  background-color: #424146;
+  padding-top: 5%;
+}
+
+.speaker-info-div,
+.single-speaker-div,
+.program-card-div,
+.d-flex {
+  display: flex;
+}
+
+.mobile-nav-div {
+  padding: 4% 2% 2% 2%;
+  min-height: 5%;
+}
+
+.nav img:hover {
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.landing-page {
+  width: 96%;
+  margin: 2% 2% 10% 2%;
+  min-height: 45%;
+}
+
+.speaker-info-div span,
+.speakers-div-container-header hr,
+.program-card-header h3,
+.landing-page-header p,
+.landing-page-header h1,
+.about-page-header hr {
+  color: #ec5242;
+}
+
+.speakers-div-container-header h2,
+.landing-page-p-div p {
+  color: #272a31;
+}
+
+.licence-div p,
+.speaker-info-div,
+.speakers-div-container-header h2,
+.register-button,
+.program-card-div,
+.about-page-header h2,
+.border-div,
+.landing-page-header p,
+.span-div {
+  font-family: 'LatoWebMedium', Helvetica, sans-serif;
+}
+
+.landing-page-header p { 
+ font-size: 40px; 
+ margin-bottom: 0;
+}
+
+.landing-page-header h1,
+.span-div span {
+  font-family: 'CocoGoose', Helvetica, sans-serif;
+}
+
+.landing-page-header h1 {  
+  font-size: 65px; 
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.landing-page-p-div {
+  margin-bottom: 2%;
+}
+
+.landing-page-p-div p.border-div {
+  border: 5px solid #ffff;
+  padding: 2%;
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.span-div span {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.span-div {  
+  font-size: 25px;
+}
+
+.about-page {
+  background-color: #ffff;
+  min-height: 80%;
+}
+
+.register-button,
+.program-card-header p,
+.about-page-header {
+  color: #d3d3d3;
+}
+
+.about-page-header {  
+  margin-bottom: 5%;
+}
+
+.about-page-header h2 {  
+  margin-top: 0;
+}
+
+
+.speakers-div-container-header {
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.speakers-div-container-header,
+.about-page-header {  
+  text-align: center;  
+}
+
+.speakers-div-container-header h2,
+.about-page-header h2 {
+  font-size: 30px;
+}
+
+.speakers-div-container-header hr,
+.about-page-header hr {
+  border: 1px solid;
+  width: 7%;
+}
+
+.about-page-container-div {
+  height: 107vh;
+  background-color: #272a31;
+  padding-top: 5%;
+}
+
+.program-card-div {
+  background: #3d4047;
+}
+
+.program-card-div {  
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  width: 92%;
+  padding: 2%;
+  height: 150px;
+  align-items: center;
+}
+
+.program-card-div header {
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.program-card-header p {
+  width: 50%;
+  font-size: 20px;
+}
+
+.program-card-div header.program-card-header {
+  flex-direction: row;
+}
+
+.program-card-header h3 {
+  font-size: 25px;
+}
+
+.button-div {
+  height: 150px;
+  width: 80%;
+  margin: 5% 10% 5% 10%;
+}
+
+.register-button {
+  height: 100%;  
+  background: #ec5242;
+  width: 100%;
+  font-size: 30px;
+}
+
+.register-button:hover {
+  border: 1px solid #3d4047;
+}
+
+.speakers-div-container {
+  background: #ffff;
+  padding-top: 5%;
+}
+
+.group-speakers-div {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.single-speaker-div {
+  flex-direction: row;
+  margin-bottom: 4%;
+}
+
+.speaker-img-div {
+  height: 200px;
+  width: 200px;
+  margin-right: 4%;
+  margin-bottom: 5%;
+}
+
+.speaker-img {
+  width: 100%;
+  height: 100%;
+}
+
+.speaker-info-div {
+  flex-direction: column;   
+  width: 70%;
+}
+
+.speaker-info-div h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+.speaker-info-div p, 
+.speaker-info-div span {   
+  font-size: 18px;
+}
+
+.speaker-info-div span {
+  font-style: italic; 
+}
+
+.speaker-info-div hr {
+  width: 5%;   
+  margin-left: 0px;  
+}
+
+.footer-img-div {
+  justify-content: center;
+}
+
+.licence-div {
+  background: #fff;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.licence-div p {
+  width: 50%;
+  font-size: 16px;
+}
+
+.licence-div img {
+  height: 45%;
+}
+
+.footer-img-div img {
+  margin-bottom: 7%;
+  min-width: 50%;
+}
