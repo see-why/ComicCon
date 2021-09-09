@@ -56,7 +56,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 - my dog perry for the comforting lick here and there 
+- the images for the speakers are gotten from Pinterest [under this terms of service.](https://policy.pinterest.com/en/terms-of-service)
+- [The original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) belong to [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 ## 📝 License
 
-This project is [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/) licensed.
+- This project is [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/) licensed.
+- This project is [MIT](./Licenses//MIT.md) licensed.
