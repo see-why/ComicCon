@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="css/desktop.css" />
 <script src="scripts/export.js"></script>
 </head>
-<body>
+<body onload="loadSpeakers()">
  <div class="container d-flex">
 
      <div class="mobile-nav-div fixed d-flex">
@@ -113,94 +113,11 @@
                 <button class="register-button" type="button"> Join Lagos Comic-Con 2021 </button>               
             </div>
         </div> 
-        <div class="speakers-div-container"> 
+        <div class="speakers-div-container" id="speakers-div-container"> 
             <header class="speakers-div-container-header">
                 <h2> Guest Appearances </h2>
                 <hr>
-            </header>
-            <div class="group-speakers-div">
-                <div class="single-speaker-div">
-                    <div class="speaker-img-div"><img class="speaker-img" src="images/chrisevans.jpg" alt=""></div>
-                    <div class="speaker-info-div">
-                        <h3> Chris Evans</h3>
-                        <span>Professional Actor</span>
-                        <hr>
-                        <p>
-                            Best known for his role as Captain America in the Marvel Cinematic Universe (MCU).
-                        </p>
-                    </div>
-                </div>
-                <div class="single-speaker-div">
-                    <div class="speaker-img-div"><img class="speaker-img" src="images/kemiAdetiba.jpg" alt=""></div>
-                    <div class="speaker-info-div">
-                        <h3> Kemi Adetiba</h3>
-                        <span>Professional Director</span>
-                        <hr>
-                        <p>
-                            Nigerian filmmaker, best known for the Netflix series King Of Boys.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div id="do-collapse-div" class="do-collapse-div">
-                <button class="more-button" id="do-collapse" type="button">MORE <img src="images/more-arrow.PNG" alt=""></button>
-            </div>
-            
-            <div class="hide block" id="collapse">
-                <div class="group-speakers-div">
-                    <div class="single-speaker-div"> 
-                        <div class="speaker-img-div"><img class="speaker-img" src="images/KitHarrington.jpg" alt=""></div>
-                        <div class="speaker-info-div">
-                            <h3> Kit Harington</h3>
-                            <span>Professional Actor</span>
-                            <hr>
-                            <p>
-                                Best known for his role as Jon Snow in Game Of Thrones.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="single-speaker-div">
-                        <div class="speaker-img-div"><img class="speaker-img" src="images/TinaFey.jpg" alt=""></div>
-                        <div class="speaker-info-div"> 
-                            <h3> Tina Fey</h3>
-                            <span>Professional Actor and Director</span>
-                            <hr>
-                            <p>
-                                Best known for her work on the NBC sketch comedy series Saturday Night Live .
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="group-speakers-div">
-                    <div class="single-speaker-div"> 
-                        <div class="speaker-img-div"><img class="speaker-img" src="images/shola.jpg" alt=""></div>
-                        <div class="speaker-info-div">
-                            <h3> Sola Sobowale</h3>
-                            <span>Professional Actor</span>
-                            <hr>
-                            <p>
-                                Nigerian film actress, screenwriter, director and producer.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="single-speaker-div">
-                        <div class="speaker-img-div"><img class="speaker-img" src="images/rmd.jpg" alt=""></div>
-                        <div class="speaker-info-div">
-                            <h3> Richard Mofe Damijo</h3>
-                            <span>Professional Actor</span>
-                            <hr>
-                            <p>
-                                Popularly known as RMD, is a Nigerian actor, writer, producer, and lawyer.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-    
-            </div>
-           <div class="hide undo-collapse-div" id="undo-collapse-div">
-            <button class="less-button" id="undo-collapse" type="button"><img src="images/Less-arrow.png" alt=""></button>
-           </div>
+            </header>           
            
         </div>    
     </section>
