@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'LatoWebMedium';
+  src: url('/fonts/Lato-Medium.eot');
+  src: url('/fonts/Lato-Medium.eot?#iefix') format('embedded-opentype');
+  src: url('/fonts/Lato-Medium.woff2') format('woff2');
+  src: url('/fonts/Lato-Medium.woff') format('woff');
+  src: url('/fonts/Lato-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'LatoWebMediumitalic';
+  src: url('/fonts/Lato-MediumItalic.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/Lato-MediumItalic.eot?#iefix') format('embedded-opentype');
+  src: url('/fonts/Lato-MediumItalic.woff2') format('woff2');
+  src: url('/fonts/Lato-MediumItalic.woff') format('woff');
+  src: url('/fonts/Lato-MediumItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'CocoGoose';
+  src: url('/fonts/Cocogoose-Pro-trial.ttf') format('truetype');
+  src: url('/fonts/cocogoose.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
