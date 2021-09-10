@@ -57,6 +57,7 @@ footer {
 .program-card-header h3,
 .landing-page-header p,
 .landing-page-header h1,
+.landing-page-header h2,
 .program-page-header hr {
   color: #ec5242;
 }
@@ -85,11 +86,13 @@ footer {
  margin-bottom: 0;
 }
 
+.landing-page-header h2,
 .landing-page-header h1,
 .span-div span {
   font-family: 'CocoGoose', Helvetica, sans-serif;
 }
 
+.landing-page-header h2,
 .landing-page-header h1 {  
   font-size: 65px; 
   margin-top: 0;
