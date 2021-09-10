@@ -65,3 +65,7 @@ li.mobile-nav-list-title {
   width: 30px;
   resize: both;
 }
+
+.margin-top-li {
+  margin-top: 60px;
+}
