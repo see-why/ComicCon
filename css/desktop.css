@@ -13,13 +13,33 @@
   background-image: url('../images/about-page-background.png');
 }
 
+.speaker-img-design {
+  content: url('../images/mobileDesign.PNG');
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.speaker-img {
+  width: 160px;
+  height: 170px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
 @media only screen and (min-width: 768px) {
   .do-collapse-div,
   .mobile-p,
   .undo-collapse-div,
   .register-button,
-  .mobile-nav-div {
+  .mobile-nav-div,
+  .mobile-nav {
     display: none;
+  }
+
+  .speaker-img-design {
+    content: url('../images/desktopDesign.PNG');
   }
 
   .speakers-div-container {
