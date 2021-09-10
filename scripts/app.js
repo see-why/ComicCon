@@ -1,27 +1,3 @@
-function showGuests() {
-  const div = document.getElementById('collapse');
-  div.style.display = 'block';
-  const divButton = document.getElementById('undo-collapse-div');
-  divButton.style.display = 'block';
-  const moreButtonDiv = document.getElementById('do-collapse-div');
-  moreButtonDiv.style.display = 'none';
-}
-
-const moreButton = document.getElementById('do-collapse');
-moreButton.addEventListener('click', showGuests);
-
-function hideGuests() {
-  const div = document.getElementById('collapse');
-  div.style.display = 'none';
-  const moreButtonDiv = document.getElementById('do-collapse-div');
-  moreButtonDiv.style.display = 'block';
-  const lessButtonDiv = document.getElementById('undo-collapse-div');
-  lessButtonDiv.style.display = 'none';
-}
-
-const lessButton = document.getElementById('undo-collapse');
-lessButton.addEventListener('click', hideGuests);
-
 function showPopup() {
   const div = document.getElementById('mobile-nav');
   div.style.display = 'flex';
