@@ -18,7 +18,8 @@
 .about-landing-page-p {
   font-size: 18px;
   align-self: center;
-  width: 50%;
+  width: 70%;
+  line-height: 1.5em;
   font-family: 'LatoWebMedium', Helvetica, sans-serif;
 }
 

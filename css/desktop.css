@@ -13,7 +13,7 @@
   background-image: url('../images/about-page-background.png');
 }
 
-@media only screen and (min-width: 768px) {  
+@media only screen and (min-width: 768px) {
   .do-collapse-div,
   .mobile-p,
   .undo-collapse-div,
@@ -34,14 +34,14 @@
     margin-bottom: 30px;
     padding-top: 30px;
   }
-  
+
   footer {
     padding-top: 3%;
-  }  
+  }
 
   .footer-header h2 {
     margin-bottom: 0;
-    color: #98989a
+    color: #98989a;
   }
 
   .margin-right {
@@ -70,20 +70,20 @@
   .desktop-nav-div {
     display: flex;
   }
-  
+
   .desktop-nav-top,
   .desktop-nav-div,
   .width {
-    width: 100%
+    width: 100%;
   }
 
   .program-page-header,
   .program-card-div header.program-card-header,
   .program-card-div,
   .desktop-nav-div {
-    flex-direction: column;    
+    flex-direction: column;
   }
-  
+
   .desktop-nav-top-ul,
   .desktop-nav-top {
     flex-direction: row;
@@ -92,29 +92,21 @@
   .desktop-page-header h2,
   .desktop-nav-ul,
   .desktop-nav-top {
-    font-family: 'LatoWebMedium', Helvetica, sans-serif;  
+    font-family: 'LatoWebMedium', Helvetica, sans-serif;
   }
 
   .desktop-nav-top {
-    height: 40px;  
+    height: 40px;
     list-style: none;
     background: #272a31;
-    color: #ffff;      
-  }
-
-  li.img-list img {
-    height: 50%;
-    width: 35px;
+    color: #ffff;
   }
 
   .desktop-nav-top-ul {
     padding-right: 5%;
-  }
-
-  .desktop-nav-top-ul {
     align-items: center;
     width: 100%;
-    justify-content: flex-end;    
+    justify-content: flex-end;
   }
 
   .desktop-nav {
@@ -122,21 +114,18 @@
     height: 100px;
   }
 
-  .desktop-nav-img-div {
-    padding-left: 5%;
-  }
-
   .desktop-nav-img-div img {
     height: 100%;
   }
 
   .desktop-nav-img-div {
-    width: 30%;    
-    justify-content: flex-start;    
+    padding-left: 5%;
+    width: 30%;
+    justify-content: flex-start;
   }
 
   .desktop-nav-ul {
-    width: 70%;    
+    width: 70%;
     font-size: 18px;
     padding-right: 5%;
     justify-content: space-between;
@@ -154,6 +143,7 @@
 
   .desktop-nav-ul a {
     text-decoration: none;
+    color: #272a31;
   }
 
   .landing-page-header hr,
@@ -166,11 +156,11 @@
   .margin {
     margin-bottom: 0;
   }
-  
+
   .margin-top {
     margin-top: 10%;
-  }  
-  
+  }
+
   .pad-div,
   .desktop-landing-page {
     margin-left: 5%;
@@ -221,13 +211,13 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .desktop-page-header h2 {
     margin-bottom: 0;
     height: 100%;
-    justify-content: center;  
+    justify-content: center;
     border-bottom: 1px solid #d3d3d3;
-    text-align: center;  
+    text-align: center;
     color: #d3d3d3;
     font-size: 16px;
     cursor: pointer;
@@ -263,7 +253,7 @@
     margin-bottom: 5%;
   }
 
-  .landing-page-p-div p.border-div,
+  .landing-page-p-div,
   p.border-div {
     font-size: 18px;
   }
@@ -274,7 +264,7 @@
   }
 
   .about-landing-page-p {
-    width: 80%;
+    width: 60%;
   }
 
   .main-logo-div {
@@ -292,8 +282,13 @@
     height: 30%;
   }
 
+  li.img-list img {
+    height: 50%;
+    width: 35px;
+  }
+
   .licence-div {
-    background: #f2f2f2; 
+    background: #f2f2f2;
     min-height: 200px;
     padding-left: 25%;
     padding-right: 20%;
