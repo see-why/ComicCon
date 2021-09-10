@@ -101,6 +101,11 @@ function loadSpeakers() {
     img.alt = each.image.alt;
     img.src = each.image.url;
 
+    const imgDesign = document.createElement('img');
+    imgDesign.className = 'speaker-img-design';
+    imgDesign.alt = each.image.alt;
+
+    speakerImgDiv.appendChild(imgDesign);
     speakerImgDiv.appendChild(img);
 
     const speakerInfoDiv = document.createElement('div');
