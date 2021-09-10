@@ -4,12 +4,10 @@
   min-width: 100%;
   min-height: 100%;
   position: fixed;
-  flex-wrap: wrap;
-  overflow-x: hidden;
-  overflow-y: auto;
+  flex-wrap: wrap;  
   background: #ec5242;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: auto;
 }
 
@@ -32,7 +30,8 @@
 
 .mobile-nav-list {
   width: 100%;
-  height: 80%;
+  height: 100%;
+  flex-direction: column;
 }
 
 li.mobile-nav-list-title {
@@ -56,13 +55,13 @@ li.mobile-nav-list-title {
 
 .cross-img-div {
   height: 50%;
-  margin-top: 5%;
+  margin-top: 20px;
   margin-right: 5%;
   margin-left: 10%;
 }
 
 .cross-img {
-  height: 100%;
-  width: 100%;
+  height: 30px;
+  width: 30px;
   resize: both;
 }
