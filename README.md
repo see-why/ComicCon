@@ -3,7 +3,7 @@
 # ComicCon
 A website with About and Home pages, detailing information about a meet-up for comic lovers.
 
-![screenshot](./app_screenshot.png)
+![screenshot](/images/screenShot.PNG)
 
 Additional description about the project and its features.
 
