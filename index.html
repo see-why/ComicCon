@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="css/main.css" />
 <link rel="stylesheet" href="css/mobile-nav.css" />
 <link rel="stylesheet" href="css/about-section.css" />
+<link rel="stylesheet" href="css/desktop.css" />
 <script src="scripts/export.js"></script>
 </head>
 <body>
@@ -19,21 +20,46 @@
         </nav> 
     </div>
 
-    <section id="landing-Page" class="landing-page margin-top">
-        <header class="landing-page-header">
-            <p>"Hello! Comic Lovers"</p>
-            <h1>LAGOS COMIC-CON SHOWCASE <br> 2021</h1>
-        </header>
-        <div class="landing-page-p-div">
-            <p class="border-div"> A glorious convention and celebration of the arts. Come see writers, producers and illustrators of comics from
-                all around world, all gathering in the city of Lagos, Nigeria.
-            </p>
-            <p class="span-div"> <span>2021.10.01(FRI) ~ 2(SAT) </span> 
-            <br>
-                @ the National Museum Lagos, Onikan Rd, Ikoyi.
-            </p>
-        </div>
-    </section>
+    <div class="desktop-nav-div">
+        <nav class="desktop-nav-top">           
+                <ul class="desktop-nav-top-ul">
+                    <li class="img-list margin-right"> <img  src="images/facebook.png" alt="facebook logo"><img  src="images/twitter.png" alt="twitter logo"></li>                    
+                    <li class="margin-right">English</li>
+                    <li class="margin-right">My Page</li>
+                    <li>Logout</li>
+                </ul>  
+        </nav> 
+        <nav class="desktop-nav">           
+                <div class="desktop-nav-img-div" tabindex="0"><a href="#landing-page"><img  src="images/lagosComicConLogo.png" alt="Lagos Comic-Con Logo"></a></div>
+                <ul class="desktop-nav-ul">
+                    <li tabindex="0"><a href="#about-page">About</a></li>                    
+                    <li tabindex="0"><a href="#program-page">Program</a></li>
+                    <li tabindex="0"><a href="#landing-page">Join</a></li>
+                    <li tabindex="0"><a href="#landing-page">Sponsor</a></li>
+                    <li tabindex="0"><a href="#landing-page">News</a></li>
+                    <li class="fancy">Lagos CC Showcase</li>
+                </ul> 
+        </nav> 
+    </div>
+
+    <div class="background">
+        <section id="landing-Page" class="landing-page desktop-landing-page margin-top">
+            <header class="landing-page-header">
+                <p>"Hello! Comic Lovers"</p>
+                <h1>LAGOS COMIC-CON SHOWCASE <br> 2021</h1>
+            </header>
+            <div class="landing-page-p-div">
+                <p class="border-div desktop-border-div"> A glorious convention and celebration of the arts. Come see writers, producers and illustrators of comics from
+                    all around world, all gathering in the city of Lagos, Nigeria.
+                </p>
+                <p class="span-div"> <span>2021.10.01(FRI) ~ 2(SAT) </span> 
+                <br>
+                    @ the National Museum Lagos, Onikan Rd, Ikoyi.
+                </p>
+            </div>
+        </section>
+    </div>
+   
 
     <section id="program-page" class="program-page">
         <div class="program-page-container-div">
@@ -42,7 +68,7 @@
                 <hr>
             </header>
     
-            <div>
+            <div class="flex-div">
                 <div class="program-card-div">
                     <header class="program-card-header d-flex">
                         <img src ="images/Interview.PNG" alt="">
@@ -68,7 +94,7 @@
                     <header class="program-card-header d-flex">
                         <img src ="images/Workshop.PNG" alt="">
                         <h3>Workshop</h3>
-                        <p> Learn new techniques and tool for your art.</p>
+                        <p> Learn new techniques and tool for your art and craft.</p>
                     </header>
                 </div>
                 <div class="program-card-div">
@@ -81,7 +107,10 @@
             </div>
 
             <div class="button-div">
-                <button class="register-button"> Join Lagos Comic-Con 2021 </button>
+                <header class="desktop-page-header">
+                    <h2> SEE THE WHOLE PROGRAM </h2>                    
+                </header>
+                <button class="register-button" type="button"> Join Lagos Comic-Con 2021 </button>               
             </div>
         </div> 
         <div class="speakers-div-container"> 
@@ -114,11 +143,11 @@
                 </div>
             </div>
 
-            <div id="do-collapse-div">
+            <div id="do-collapse-div" class="do-collapse-div">
                 <button class="more-button" id="do-collapse" type="button">MORE <img src="images/more-arrow.PNG" alt=""></button>
             </div>
             
-            <div class="hide" id="collapse">
+            <div class="hide block" id="collapse">
                 <div class="group-speakers-div">
                     <div class="single-speaker-div"> 
                         <div class="speaker-img-div"><img class="speaker-img" src="images/KitHarrington.jpg" alt=""></div>
@@ -169,30 +198,33 @@
                 </div>
     
             </div>
-           <div class="hide" id="undo-collapse-div">
+           <div class="hide undo-collapse-div" id="undo-collapse-div">
             <button class="less-button" id="undo-collapse" type="button"><img src="images/Less-arrow.png" alt=""></button>
            </div>
            
         </div>    
     </section>
 
-    <section class="landing-Page" id="about-page">
-        <header class="landing-page-header center">
-            <p>"Hello! Comic Lovers"</p>
-            <h1>LAGOS COMIC-CON SHOWCASE 2021</h1>
-        </header>
-        <div class="landing-page-p-div about-p-div">
-            <p class="border-div about-p-tag"> The Lagos Comic-Con Showcase offers a wonderful opportunity for new and Innovative Writers, Illustrators and
-                Creatives to pitch their comic Ideas in front of a responsive and highly engaging audience. Pitches that stand out get instant recognition
-                collaboration and possible endorsements.
-            </p>
-            <p class="about-landing-page-p"> Please contact us per Email for any further questions about Lagos Comic-Con Showcase 2021!
-                <br>
-                <a href="mailto:iyadicy@gmail.com">iyadicy@gmail.com ></a>                
-            </p>
-        </div>
+    <section class="landing-Page desktop-about-page" id="about-page">
+        <div class="pad-div">
+            <header class="landing-page-header center">
+                <p class="mobile-p">"Hello! Comic Lovers"</p>
+                <h2>LAGOS COMIC-CON SHOWCASE 2021</h2>
+                <hr>
+            </header>
+            <div class="landing-page-p-div about-p-div">
+                <p class="border-div about-p-tag"> The Lagos Comic-Con Showcase offers a wonderful opportunity for new and Innovative Writers, Illustrators and
+                    Creatives to pitch their comic Ideas in front of a responsive and highly engaging audience. Pitches that stand out get instant recognition
+                    collaboration and possible endorsements.
+                </p>
+                <p class="about-landing-page-p"> Please contact us per Email for any further questions about Lagos Comic-Con Showcase 2021!
+                    <br>
+                    <a href="mailto:iyadicy@gmail.com">iyadicy@gmail.com ></a>                
+                </p>
+            </div>
+        </div>        
         <div class="speakers-div-container flex-column padding">
-            <header class="speakers-div-container-header margin">
+            <header class="margin speakers-div-container-header">
                 <h2> Lagos Comic-Con Showcase </h2>
                 <hr>
             </header>
@@ -230,12 +262,14 @@
       </div>
 
     <footer>
-        <div class="program-page-header">
-            <h2> Partner </h2>
-            <hr>
-        </div>
-        <div>
+        <div class="partners">
+            <div class="program-page-header footer-header">
+                <h2> Partner </h2>
+                <hr>
+            </div>
             <div class="footer-img-div d-flex"><img src="images/partners.PNG" alt="partners logo"></div>
+        </div>       
+        <div>           
             <div class="licence-div d-flex">
                 <img src="images/cc.PNG" alt="creative commons logo">
                 <p>2015 Creative Commons Korea. Some Rights Reserved. </p>
