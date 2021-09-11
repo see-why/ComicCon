@@ -23,7 +23,11 @@ Additional description about the project and its features.
 **the project comes shipped with linters config for html and css, so ensure you have lighthouse, ESlint, Webhint**
 **and Stylelint installed on your local environment**
 
-**Get a local copy and run..**
+**To get a local copy of the repository please run the following commands on your terminal:**
+**$ git clone https://github.com/...**
+**$ cd ...**
+**$ git checkout ...**
+**$ Open index.html in your browser or with a live server**
 
 ### Prerequisites
 

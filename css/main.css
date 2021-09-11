@@ -41,6 +41,7 @@ footer {
 .mobile-nav-div {
   padding: 4% 2% 2% 2%;
   min-height: 5%;
+  z-index: 9;
 }
 
 .landing-page {
@@ -232,6 +233,9 @@ footer {
   width: 200px;
   margin-right: 4%;
   margin-bottom: 5%;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
 }
 
 .speaker-img {

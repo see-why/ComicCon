@@ -1,0 +1,22 @@
+.partners {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .partners {
+    display: none;
+  }
+
+  footer {
+    background: #ffff;
+  }
+
+  .licence-div {
+    background: #2e2e2e;
+    color: #ffff;
+  }
+
+  .licence-div img {
+    content: url('../images/ccDesktop.PNG');
+  }
+}
